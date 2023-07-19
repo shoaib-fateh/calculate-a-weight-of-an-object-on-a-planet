@@ -1,0 +1,75 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url('./images/galaxy.gif');
+	background-position: center;
+}
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+header h1 {
+	color: #fff;
+	font-weight: 800;
+}
+
+header input,
+header select,
+header button {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #ffffffe3;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.flex-container {
+	max-width: 70%;
+	background-color: #ffffff34;
+	border-radius: 10px;
+	padding: 20px 30px;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container .flex-item.image img {
+	width: 85%;
+}
+
+.flex-container .flex-item {
+	padding: 20px 30px;
+}
+
+.flex-container .flex-item.image {
+	width: 50%;
+}
+
+.flex-container .flex-item.description {
+	color: #fff;
+	background-color: #ffffff34;
+	padding: 20px 30px;
+	width: 50%;
+	display: none;
+}
+
+.flex-container .flex-item.description .n {
+	background-color: #ffffff34;
+	border-radius: 5em;
+	margin: auto;
+	width: 160px;
+	height: 160px;
+	font-size: 20px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
