@@ -4,12 +4,14 @@
 <html lang="en">
 	<head>
 		<title>Solar System: Document Object Model:30 Days Of JavaScript</title>
-		<link
+		<!-- <link
 			href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
-			rel="stylesheet" />
 		<link
 			rel="stylesheet"
 			href="styles.css" />
+		<script
+			defer
+			src="./scripts/main.js"></script>
 	</head>
 
 	<body>
@@ -19,10 +21,11 @@
 			<input
 				type="text"
 				id="mass"
+				value="100"
 				placeholder="Mass in Kilogram" />
 			<select id="planet">
-				<option value="none">--select planet--</option>
 				<option value="mercury">MERCURY</option>
+				<option value="none">--select planet--</option>
 				<option value="venus">VENUS</option>
 				<option value="earth">EARTH</option>
 				<option value="moon">MOON</option>
@@ -45,7 +48,5 @@
 				<div class="flex-item description"></div>
 			</div>
 		</main>
-
-		<script src="./scripts/main.js"></script>
 	</body>
 </html>
