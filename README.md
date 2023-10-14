@@ -24,5 +24,5 @@ A JavaScript program to calculate the weight of an object on different planets.
 
 ## Credits
 
-This program was developed by [Your Name](https://github.com/shoaib-fateh).
+This program was developed by [Shoaib Fateh](https://github.com/shoaib-fateh).
 
