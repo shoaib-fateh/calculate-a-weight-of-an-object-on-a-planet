@@ -11,7 +11,7 @@ A JavaScript program to calculate the weight of an object on different planets.
 
 ## Installation
 
-1. Clone the repository: ``` ... ```
+1. Clone the repository: ``` https://github.com/shoaib-fateh/calculate-a-weight-of-an-object-on-a-planet.git ```
 
 2. Open the index.html file in your web browser.
 
